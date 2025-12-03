@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Css Starts Here */
+.navbarContainer {
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarContainer h1 {
+    color: #ffffff;
+}
+
+.navbarContainer .menuItems a {
+    margin: 30px 20px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Navbar Css Ends Here */
+
+/* Footer Starts Here */
+
+.footerContainer {
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footerContainer h2 {
+    color: #ffffff;
+}
+
+/* Footer Ends Here */
+
+/* Home page Starts here */
+
+.HomePageMainContainer {
+    margin: 20px 20px;
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+    padding: 20px 20px;
+}
+
+.HomePageMainContainer .homePageFirstChildContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.HomePageMainContainer .homePageFirstChildContainer .homePageLeftContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.homePageLeftContainer .buttonsContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonsContainer a {
+    height: 50px;
+    width: 200px;
+    background-color: #6dd5fa;
+    padding: 10px 10px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.HomePageMainContainer .homePageFirstChildContainer .homePageLeftContainer h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.imageContainer img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+/* Home page Ends here */
+
+
+/* Doctors Page */
+.doctors-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.doctors-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.doctors-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.doctors-form button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.doctors-form button:hover {
+    background-color: #1c92d2;
+}
+
+.doctors-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.doctors-card {
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background: #fff;
+}
+
+.doctors-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.doctor-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.doctor-action button {
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.editBtn {
+    background-color: #0078d4;
+}
+
+.editBtn:hover {
+    background-color: #1c92d2;
+}
+
+.deleteBtn {
+    background-color: #ff000097;
+}
+
+.deleteBtn:hover {
+    background-color: #ff0000d6;
+}
+
+
+/* Appointment Form */
+
+.appointment-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.appointments-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.appointments-form input,
+.appointments-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.appointments-form button {
+    background: #0078d4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.appointment-table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.appointment-table th,
+.appointment-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.appointment-table th {
+    background-color: #0078d4;
+    color: white;
+}
+
+doctor-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.doctor-action button {
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.editBtn {
+    background-color: #0078d4;
+}
+
+.editBtn:hover {
+    background-color: #1c92d2;
+}
+
+.deleteBtn {
+    background-color: #ff000097;
+}
+
+.deleteBtn:hover {
+    background-color: #ff0000d6;
+}
